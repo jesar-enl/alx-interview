@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Lockboxes module"""
 
 from collections import deque
 
