@@ -2,13 +2,15 @@
 
 from collections import deque
 
+
 def canUnlockAll(boxes):
     """
     Determines if all the boxes can be opened.
 
     Args:
         boxes (list): A list of lists representing the boxes.
-            Each inner list contains the keys found inside the corresponding box.
+            Each inner list contains the keys
+            found inside the corresponding box.
 
     Returns:
         bool: True if all boxes can be opened, False otherwise.
