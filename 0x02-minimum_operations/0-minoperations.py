@@ -2,6 +2,7 @@
 """module to calculate the minimum operations needed
 to copy all and paste a given number"""
 
+
 def minOperations(n):
     """function to determine the number of minimum operations"""
 
@@ -18,7 +19,10 @@ def minOperations(n):
     # Initialize the clipboard with the current content of the file
     clipboard = 1
 
-    # While the number of H characters in the file is less than the desired count
+    """
+    While the number of H characters
+    in the file is less than the desired count
+    """
     while h_count < n:
         # If the desired count is divisible by the current count
         if n % h_count == 0:
