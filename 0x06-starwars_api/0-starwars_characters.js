@@ -37,7 +37,6 @@ function printCharacters (movieId) {
         return;
       }
 
-      console.log(`Characters in the movie (ID ${movieId}):`);
       Promise.all(characters.map(getCharacterName))
         .then(characterNames => {
           characterNames.forEach(name => console.log(name));
